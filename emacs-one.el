@@ -102,7 +102,7 @@
   (emacs-one-with-colour-variables
    variant
    (custom-theme-set-faces
-    'one-dark
+    theme-name
     ;; Emacs Interface Colours
     `(default ((,class (:foreground ,foreground :background ,background))))
     `(cursor ((,class (:background ,mono1))))
