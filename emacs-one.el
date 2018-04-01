@@ -320,18 +320,6 @@
     `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
     )))
 
-;;;###autoload
-(defun solarized-color-blend (color1 color2 alpha)
-  "Blends COLOR1 onto COLOR2 with ALPHA.
-COLOR1 and COLOR2 should be color names (e.g. \"white\") or RGB
-triplet strings (e.g. \"#ff12ec\").
-Alpha should be a float between 0 and 1."
-  (apply 'color-rgb-to-hex
-         (-zip-with '(lambda (it other)
-                       (+ (* alpha it) (* other (- 1 alpha))))
-                    (color-name-to-rgb color1)
-                    (color-name-to-rgb color2))))
-
 ;;; Footer
 
 ;;;###autoload
