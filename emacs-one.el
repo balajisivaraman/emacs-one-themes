@@ -279,7 +279,7 @@
     `(helm-bookmark-w3m ((,class (:foreground ,orange1))))
     `(helm-bookmarks-su ((,class (:foreground ,orange2))))
 
-    ;; isearch
+    ;; Isearch
     `(isearch ((,class (:foreground ,background :background ,red1 :weight normal))))
     `(isearch-fail ((,class (:foreground ,orange2 :background ,background :bold t))))
 
@@ -467,7 +467,7 @@
     `(vc-annotate-very-old-color nil)
     `(vc-annotate-background nil)
 
-    ;; which-function
+    ;; Which Function
     `(which-func ((,class (:foreground ,blue :background nil :weight bold)))))
 
    (custom-theme-set-variables
