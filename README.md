@@ -44,6 +44,17 @@ OR
 (load-theme 'one-light t)
 ```
 
+# Contributing
+
+This port is very much a work-in-progress. I'm not a visual designer
+and have eyeballed colouring of the various faces based on the
+original Vim theme, as well as what looks pleasing to me. If you feel
+some colours could be improved, I'd happily accept PRs for the same.
+
+If you find modes that are missing colour configurations, please feel
+free to contribute the same using PRs. This theme is heavily biased
+towards modes I use all the time.
+
 # License
 
 This theme is licensed under the GNU Public License Version 3.0. For
