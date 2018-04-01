@@ -240,7 +240,7 @@
     `(helm-M-x-key ((,class (:foreground ,red1 :underline t))))
     `(helm-buffer-size ((,class (:foreground ,foreground))))
     `(helm-candidate-number ((,class (:foreground ,mono2 :bold t))))
-    `(helm-selection ((,class (:background ,highlight :foreground ,mono4))))
+    `(helm-selection ((,class (:background ,highlight :foreground ,mono2))))
     `(helm-selection-line ((,class (:background ,highlight :foreground ,mono2
                                                 :underline nil))))
     `(helm-separator ((,class (:foreground ,red1))))
