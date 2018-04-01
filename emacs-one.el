@@ -109,6 +109,8 @@
     `(fringe ((,class (:background ,low-contrast-bg :foreground ,fringe))))
     `(linum ((,class (:background ,background :foreground ,comment :italic nil :underline nil))))
     `(highlight ((,class (:background ,contrast-bg))))
+    `(lazy-highlight ((,class (:foreground ,background :background ,orange2
+                                           :weight normal))))
     `(vertical-border ((,class (:foreground ,contrast-bg))))
     `(border ((,class (:background ,contrast-bg :foreground ,highlight))))
     `(region ((,class (:background ,highlight :inverse-video nil))))
@@ -232,6 +234,10 @@
     `(helm-bookmark-man ((,class (:foreground ,violet))))
     `(helm-bookmark-w3m ((,class (:foreground ,orange1))))
     `(helm-bookmarks-su ((,class (:foreground ,orange2))))
+
+    ;; isearch
+    `(isearch ((,class (:foreground ,background :background ,red1 :weight normal))))
+    `(isearch-fail ((,class (:foreground ,orange2 :background ,background :bold t))))
 
     ;; Magit
     ;;;; Headings
