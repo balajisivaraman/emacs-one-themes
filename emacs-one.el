@@ -205,22 +205,12 @@
     `(diredp-write-priv ((,class (:foreground ,orange1 :background nil))))
 
     ;; Ediff
-    `(ediff-current-diff-A ((,class (:foreground ,comment :background ,highlight))))
-    `(ediff-current-diff-Ancestor ((,class (:foreground ,cyan :background ,highlight))))
-    `(ediff-current-diff-B ((,class (:foreground ,comment :background ,highlight))))
-    `(ediff-current-diff-C ((,class (:foreground ,comment :background ,highlight))))
-    `(ediff-even-diff-A ((,class (:foreground ,blue :background ,contrast-bg))))
-    `(ediff-even-diff-Ancestor ((,class (:foreground ,violet :background ,highlight))))
-    `(ediff-even-diff-B ((,class (:foreground ,blue :background ,contrast-bg))))
-    `(ediff-even-diff-C ((,class (:foreground ,blue :background ,contrast-bg))))
-    `(ediff-fine-diff-A ((,class (:foreground ,green :background ,contrast-bg))))
-    `(ediff-fine-diff-Ancestor ((,class (:foreground ,orange2 :background ,highlight))))
-    `(ediff-fine-diff-B ((,class (:foreground ,green :background ,contrast-bg))))
-    `(ediff-fine-diff-C ((,class (:foreground ,green :background ,contrast-bg))))
-    `(ediff-odd-diff-A ((,class (:foreground ,orange2 :background ,contrast-bg))))
-    `(ediff-odd-diff-Ancestor ((,class (:foreground ,red1 :background ,highlight))))
-    `(ediff-odd-diff-B ((,class (:foreground ,orange2 :background ,contrast-bg))))
-    `(ediff-odd-diff-C ((,class (:foreground ,orange2 :background ,contrast-bg))))
+    `(ediff-fine-diff-A ((,class (:background ,orange2))))
+    `(ediff-fine-diff-B ((,class (:background ,green))))
+    `(ediff-even-diff-A ((,class (:background ,contrast-bg :foreground ,mono2))))
+    `(ediff-odd-diff-A ((,class (:background  ,low-contrast-bg :foreground ,mono1))))
+    `(ediff-even-diff-B ((,class (:background ,contrast-bg :foreground ,mono4))))
+    `(ediff-odd-diff-B ((,class (:background  ,low-contrast-bg :foreground ,mono1))))
 
     ;; Flycheck
     `(flycheck-error ((,class (:underline (:style wave :color ,red1)))))
