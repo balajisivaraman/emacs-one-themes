@@ -246,6 +246,7 @@
     `(helm-separator ((,class (:foreground ,red1))))
     `(helm-source-header ((,class (:background ,blue :foreground ,background
                                                :underline nil :bold t))))
+    `(helm-visible-mark ((,class (:foreground ,violet :bold t))))
 
     ;; Helm Buffers
     `(helm-buffer-not-saved ((,class (:foreground ,orange1))))
