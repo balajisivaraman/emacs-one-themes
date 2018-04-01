@@ -12,6 +12,21 @@ working under Emacs 23 as well. The theme is implemented in terms of
 customizations and `deftheme` and does not require the
 `color-theme-package`.
 
+# Supported Modes
+
+- Helm
+- Magit
+- Org
+- Dired
+- Flycheck
+- EDiff
+- Company
+- Rainbow Delimiters
+- Spaceline
+- Ledger
+
+And more.
+
 # Manual Installation
 
 Clone this repository to some location on your PC.
