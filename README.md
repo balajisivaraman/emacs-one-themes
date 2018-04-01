@@ -63,7 +63,7 @@ more info, please see the LICENSE file.
 # Credits
 
 This theme draws heavily upon the colours and naming specified in [Vim
-One](https://github.com/rakr/vim-one/) by [Ramir
+One](https://github.com/rakr/vim-one/) by [Ramzi
 Akremi](https://github.com/rakr/).
 
 Additionally, the design of this Emacs port is inspired by [Bozhidar

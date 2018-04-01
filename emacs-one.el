@@ -26,7 +26,7 @@
 ;;; Credits
 ;;
 ;; This theme is heavily inspired by the Vim port of One created by
-;; Ramir Akremi.
+;; Ramzi Akremi.
 ;;
 ;;; Code:
 
