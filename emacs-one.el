@@ -204,6 +204,27 @@
     `(diredp-symlink ((,class (:foreground ,violet))))
     `(diredp-write-priv ((,class (:foreground ,orange1 :background nil))))
 
+    ;; Flycheck
+    `(flycheck-error ((,class (:underline (:style wave :color ,red1)))))
+    `(flycheck-info ((,class (:underline (:style wave :color ,cyan)))))
+    `(flycheck-warning ((,class (:underline (:style wave :color ,orange1)))))
+    `(flycheck-fringe-error ((,class (:foreground ,red1))))
+    `(flycheck-fringe-info ((,class (:foreground ,cyan))))
+    `(flycheck-fringe-warning ((,class (:foreground ,orange1))))
+    `(flycheck-color-mode-line-error-face ((,class (:foreground ,red1))))
+    `(flycheck-color-mode-line-warning-face ((,class (:foreground ,orange1))))
+    `(flycheck-color-mode-line-info-face ((,class (:foreground ,cyan))))
+    `(flycheck-color-mode-line-running-face ((,class (:foreground ,comment))))
+    `(flycheck-color-mode-line-success-face ((,class (:foreground ,green))))
+
+    ;; Flymake
+    `(flymake-error ((,class (:underline (:style wave :color ,red1)))))
+    `(flymake-note ((,class (:underline (:style wave :color ,cyan)))))
+    `(flymake-warning ((,class (:underline (:style wave :color ,orange1)))))
+
+    ;; Flyspell
+    `(flyspell-incorrect ((,class (:underline (:style wave :color ,red1)))))
+
     ;; Helm
     `(helm-header ((,class (:inherit header-line))))
     `(helm-header-line-left-margin ((,class (:inherit header-line))))
