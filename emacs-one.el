@@ -121,7 +121,10 @@
                                             :background ,highlight :weight normal))))
     `(mode-line-emphasis ((,class (:foreground ,foreground :slant italic))))
     `(mode-line-highlight ((,class (:foreground ,violet :box nil :weight bold))))
+    `(match ((,class (:background ,background :foreground ,accent :weight bold))))
+    `(menu ((,class (:foreground ,blue :background ,background))))
     `(minibuffer-prompt ((,class (:foreground ,blue))))
+    `(header-line ((,class (:inherit mode-line-inactive :foreground ,orange1 :background nil))))
 
     ;; Standard font lock faces
     `(font-lock-builtin-face ((,class (:foreground ,mono2))))
