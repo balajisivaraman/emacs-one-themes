@@ -151,6 +151,52 @@
 
     ;; which-function
     `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
+
+    ;; Helm
+    `(helm-header ((,class (:inherit header-line))))
+    `(helm-header-line-left-margin ((,class (:inherit header-line))))
+    `(helm-match ((,class (:inherit match))))
+    `(helm-M-x-key ((,class (:foreground ,red1 :underline t))))
+    `(helm-buffer-size ((,class (:foreground ,foreground))))
+    `(helm-candidate-number ((,class (:foreground ,mono2 :bold t))))
+    `(helm-selection ((,class (:background ,highlight :foreground ,mono4))))
+    `(helm-selection-line ((,class (:background ,highlight :foreground ,mono2
+                                                :underline nil))))
+    `(helm-separator ((,class (:foreground ,red1))))
+    `(helm-source-header ((,class (:background ,foreground :foreground ,background
+                                               :underline nil :bold t))))
+
+    ;; Helm Buffers
+    `(helm-buffer-not-saved ((,class (:foreground ,orange1))))
+    `(helm-buffer-saved-out ((,class (:foreground ,red1 :background ,background
+                                                  :inverse-video t))))
+    `(helm-buffer-size ((,class (:foreground ,foreground))))
+    `(helm-buffer-directory ((,class (:foreground ,red2))))
+    `(helm-buffer-process ((,class (:foreground ,orange1))))
+
+    ;; Helm Find Files
+    `(helm-ff-directory ((,class (:foreground ,red2))))
+    `(helm-ff-dotted-directory ((,class (:background ,mono3 :foreground ,background))))
+    `(helm-ff-executable ((,class (:foreground ,green))))
+    `(helm-ff-file ((,class (:foreground ,foreground))))
+    `(helm-ff-invalid-symlink ((,class (:foreground ,orange1 :slant italic))))
+    `(helm-ff-prefix ((,class (:background ,orange2 :foreground ,background))))
+    `(helm-ff-symlink ((,class (:foreground ,cyan))))
+
+    ;; Helm Grep
+    `(helm-grep-file ((,class (:foreground ,cyan :underline t))))
+    `(helm-grep-finish ((,class (:foreground ,green))))
+    `(helm-grep-lineno ((,class (:foreground ,orange1))))
+    `(helm-grep-match ((,class (:inherit match))))
+
+    ;; Helm Bookmarks
+    `(helm-bookmark-directory ((,class (:inherit helm-ff-directory))))
+    `(helm-bookmark-file ((,class (:foreground ,mono2))))
+    `(helm-bookmark-gnus ((,class (:foreground ,cyan))))
+    `(helm-bookmark-info ((,class (:foreground ,green))))
+    `(helm-bookmark-man ((,class (:foreground ,violet))))
+    `(helm-bookmark-w3m ((,class (:foreground ,orange1))))
+    `(helm-bookmarks-su ((,class (:foreground ,orange2))))
     )))
 
 ;;; Footer
