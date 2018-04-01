@@ -316,6 +316,54 @@
     `(magit-reflog-remote       ((t (:foreground ,cyan))))
     `(magit-reflog-other ((t (:foreground ,cyan))))
 
+    ;; Org Mode
+    `(org-agenda-structure ((,class (:foreground ,blue))))
+    `(org-agenda-calendar-event ((,class (:foreground ,comment))))
+    `(org-agenda-calendar-sexp ((,class (:foreground ,mono4 :slant italic))))
+    `(org-agenda-date ((,class (:background ,background :foreground ,blue :weight normal
+                                            :box (:line-width 2 :color ,background)
+                                            :inverse-video nil :overline nil :underline nil))))
+    `(org-agenda-date-weekend ((,class (:inherit org-agenda-date :inverse-video nil :background unspecified
+                                                 :foreground ,blue :weight unspecified
+                                                 :underline t :overline nil :box unspecified))))
+    `(org-agenda-date-today
+      ((,class (:inherit org-agenda-date :inverse-video t :weight bold
+                          :underline unspecified :overline nil :box unspecified
+                          :foreground ,blue :background ,background))))
+    `(org-agenda-done ((,class (:foreground ,green :slant italic))))
+    `(org-archived ((,class (:foreground ,comment :weight normal))))
+    `(org-block ((,class (:foreground ,comment))))
+    `(org-checkbox ((,class (:background ,background :foreground ,foreground
+                                         :box (:line-width 1 :style released-button)))))
+    `(org-code ((,class (:foreground ,comment))))
+    `(org-date ((,class (:foreground ,blue :underline t))))
+    `(org-done ((,class (:weight bold :foreground ,green))))
+    `(org-ellipsis ((,class (:foreground ,comment))))
+    `(org-formula ((,class (:foreground ,orange2))))
+    `(org-headline-done ((,class (:foreground ,green))))
+    `(org-hide ((,class (:foreground ,background))))
+    `(org-level-1 ((,class (:foreground ,orange1))))
+    `(org-level-2 ((,class (:foreground ,green))))
+    `(org-level-3 ((,class (:foreground ,blue))))
+    `(org-level-4 ((,class (:foreground ,red1))))
+    `(org-level-5 ((,class (:foreground ,cyan))))
+    `(org-level-6 ((,class (:foreground ,orange2))))
+    `(org-level-7 ((,class (:foreground ,green))))
+    `(org-level-8 ((,class (:foreground ,red2))))
+    `(org-link ((,class (:foreground ,orange2 :underline t))))
+    `(org-meta-line ((,class (:foreground ,comment :slant italic))))
+    `(org-sexp-date ((,class (:foreground ,violet))))
+    `(org-scheduled ((,class (:foreground ,green))))
+    `(org-scheduled-previously ((,class (:foreground ,cyan))))
+    `(org-scheduled-today ((,class (:foreground ,blue :weight normal))))
+    `(org-special-keyword ((,class (:foreground ,comment :weight bold))))
+    `(org-table ((,class (:foreground ,green))))
+    `(org-tag ((,class (:weight bold))))
+    `(org-time-grid ((,class (:foreground ,comment))))
+    `(org-todo ((,class (:foreground ,red2 :weight bold))))
+    `(org-upcoming-deadline ((,class (:foreground ,orange2  :weight normal :underline nil))))
+    `(org-warning ((,class (:foreground ,orange1 :weight normal :underline nil))))
+
     ;; which-function
     `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
     )))
