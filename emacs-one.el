@@ -244,7 +244,7 @@
     `(helm-selection-line ((,class (:background ,highlight :foreground ,mono2
                                                 :underline nil))))
     `(helm-separator ((,class (:foreground ,red1))))
-    `(helm-source-header ((,class (:background ,foreground :foreground ,background
+    `(helm-source-header ((,class (:background ,blue :foreground ,background
                                                :underline nil :bold t))))
 
     ;; Helm Buffers
