@@ -145,6 +145,9 @@
     `(error ((,class (:foreground ,red))))
     `(warning ((,class (:foreground ,orange))))
     `(tooltip ((,class (:foreground ,yellow :background ,background :inverse-video t))))
+
+    ;; which-function
+    `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
     )))
 
 ;;; Footer
