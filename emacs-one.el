@@ -1,4 +1,4 @@
-;;; emacs-one.el --- One For Emacs
+;;; emacs-one.el --- One Colorscheme
 
 ;; Copyright (C) 2018 Balaji Sivaraman
 
@@ -97,7 +97,7 @@
           (background-mode (if (eq ,variant 'light) 'light 'dark)))
      ,@body))
 
-(defun create-one-theme (variant theme-name)
+(defun emacs-one-create-theme (variant theme-name)
   "Create a `VARIANT' of the theme named `THEME-NAME'."
   (emacs-one-with-colour-variables
    variant
