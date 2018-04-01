@@ -385,6 +385,30 @@
     `(rainbow-delimiters-depth-12-face ((,class (:foreground ,red1))))
     `(rainbow-delimiters-depth-unmatched-face ((,class (:foreground ,foreground :inverse-video t))))
 
+    ;; VC
+    `(vc-annotate-background-mode nil)
+    `(vc-annotate-color-map
+      '((20  . ,red2)
+        (40  . ,orange2)
+        (60  . ,orange1)
+        (80  . ,green)
+        (100 . ,cyan)
+        (120 . ,blue)
+        (140 . ,violet)
+        (160 . ,red2)
+        (180 . ,orange2)
+        (200 . ,orange1)
+        (220 . ,green)
+        (240 . ,cyan)
+        (260 . ,blue)
+        (280 . ,violet)
+        (300 . ,red2)
+        (320 . ,orange2)
+        (340 . ,orange1)
+        (360 . ,green)))
+    `(vc-annotate-very-old-color nil)
+    `(vc-annotate-background nil)
+
     ;; which-function
     `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
     )))
