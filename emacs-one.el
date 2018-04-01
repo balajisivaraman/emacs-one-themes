@@ -187,9 +187,6 @@
     `(diredp-symlink ((,class (:foreground ,violet))))
     `(diredp-write-priv ((,class (:foreground ,orange1 :background nil))))
 
-    ;; which-function
-    `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
-
     ;; Helm
     `(helm-header ((,class (:inherit header-line))))
     `(helm-header-line-left-margin ((,class (:inherit header-line))))
@@ -235,6 +232,9 @@
     `(helm-bookmark-man ((,class (:foreground ,violet))))
     `(helm-bookmark-w3m ((,class (:foreground ,orange1))))
     `(helm-bookmarks-su ((,class (:foreground ,orange2))))
+
+    ;; which-function
+    `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
     )))
 
 ;;; Footer
