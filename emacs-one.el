@@ -430,6 +430,10 @@
     `(org-upcoming-deadline ((,class (:foreground ,orange2  :weight normal :underline nil))))
     `(org-warning ((,class (:foreground ,orange1 :weight normal :underline nil))))
 
+    ;; Parenthesis matching (built-in)
+    `(show-paren-match ((,class (:background ,violet :foreground ,background))))
+    `(show-paren-mismatch ((,class (:background ,red1 :foreground ,background))))
+
     ;; Rainbow Delimiters
     `(rainbow-delimiters-depth-1-face ((,class (:foreground ,cyan))))
     `(rainbow-delimiters-depth-2-face ((,class (:foreground ,orange1))))
