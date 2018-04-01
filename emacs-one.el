@@ -212,6 +212,9 @@
     `(ediff-even-diff-B ((,class (:background ,contrast-bg :foreground ,mono4))))
     `(ediff-odd-diff-B ((,class (:background  ,low-contrast-bg :foreground ,mono1))))
 
+    ;; ElDoc
+    `(eldoc-highlight-function-argument ((,class (:foreground ,green :weight bold))))
+
     ;; Flycheck
     `(flycheck-error ((,class (:underline (:style wave :color ,red1)))))
     `(flycheck-info ((,class (:underline (:style wave :color ,cyan)))))
