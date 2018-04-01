@@ -12,7 +12,24 @@ working under Emacs 23 as well. The theme is implemented in terms of
 customizations and `deftheme` and does not require the
 `color-theme-package`.
 
-# LICENSE
+# Manual Installation
+
+Clone this repository to some location on your PC.
+
+```
+(add-to-list 'load-path "<clone location>/emacs-one-themes")
+(add-to-list 'custom-theme-load-path "<clone location>/emacs-one-themes")
+```
+
+```
+(load-theme 'one-dark t)
+```
+OR
+```
+(load-theme 'one-light t)
+```
+
+# License
 
 This theme is licensed under the GNU Public License Version 3.0. For
 more info, please see the LICENSE file.
