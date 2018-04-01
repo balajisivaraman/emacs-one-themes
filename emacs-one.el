@@ -4,7 +4,7 @@
 
 ;; Author: Balaji Sivaraman <balaji@balajisivaraman.com>
 ;; URL: http://github.com/balajisivaraman/emacs-one-themes
-;; Version: 0.1.0
+;; Version: 0
 
 ;; This program is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
