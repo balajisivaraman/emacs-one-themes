@@ -12,6 +12,10 @@ working under Emacs 23 as well. The theme is implemented in terms of
 customizations and `deftheme` and does not require the
 `color-theme-package`.
 
+Also note that I have **not tested** this theme for usage in terminals. I
+primarily use Emacs GUI, and that is the environment in which I tested
+this theme.
+
 # Supported Modes
 
 - Helm
