@@ -283,6 +283,21 @@
     `(isearch ((,class (:foreground ,background :background ,red1 :weight normal))))
     `(isearch-fail ((,class (:foreground ,orange2 :background ,background :bold t))))
 
+    ;; Ledger
+    `(ledger-font-comment-face ((,class (:inherit font-lock-comment-face))))
+    `(ledger-font-occur-narrowed-face ((,class (:inherit font-lock-comment-face :invisible t))))
+    `(ledger-font-occur-xact-face ((,class (:inherit highlight))))
+    `(ledger-font-payee-cleared-face ((,class (:foreground ,green))))
+    `(ledger-font-payee-uncleared-face ((,class (:foreground ,red1))))
+    `(ledger-font-posting-date-face ((,class (:foreground ,orange1))))
+    `(ledger-font-posting-amount-face ((,class (:foreground ,foreground))))
+    `(ledger-font-posting-account-cleared-face ((,class (:foreground ,cyan))))
+    `(ledger-font-posting-account-face ((,class (:foreground ,blue))))
+    `(ledger-font-posting-account-pending-face ((,class (:foreground ,orange2))))
+    `(ledger-font-xact-highlight-face ((,class (:inherit highlight))))
+    `(ledger-occur-narrowed-face ((,class (:inherit font-lock-comment-face :invisible t))))
+    `(ledger-occur-xact-face ((,class (:inherit highlight))))
+
     ;; Magit
     ;;;; Headings
     `(magit-section-highlight ((t (:inherit contrast-bg))))
