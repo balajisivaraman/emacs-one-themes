@@ -151,6 +151,21 @@
     `(warning ((,class (:foreground ,orange1))))
     `(tooltip ((,class (:foreground ,orange2 :background ,background :inverse-video t))))
 
+    ;; Company
+    `(company-tooltip ((,class (:background ,contrast-bg))))
+    `(company-tooltip-selection ((,class (:foreground ,comment :inverse-video t))))
+    `(company-tooltip-common ((,class (:inherit company-tooltip :foreground ,red2))))
+    `(company-tooltip-common-selection ((,class (:inherit company-tooltip-selection :foreground ,red2))))
+    `(company-tooltip-annotation ((,class (:inherit company-tooltip :foreground ,green))))
+    `(company-tooltip-annotation-selection ((,class (:inherit company-tooltip-selection :foreground ,green))))
+    `(company-scrollbar-bg ((,class (:inherit 'company-tooltip :background ,highlight))))
+    `(company-scrollbar-fg ((,class (:background ,contrast-bg))))
+    `(company-tooltip-search ((,class (:inherit company-tooltip :foreground ,accent))))
+    `(company-preview ((,class (:foreground ,comment :background ,contrast-bg))))
+    `(company-preview-common ((,class (:inherit company-preview :foreground ,red2))))
+    `(company-preview-search ((,class (:inherit company-preview :foreground ,blue))))
+    `(company-echo-common ((,class (:inherit company-echo :foreground ,red2))))
+
     ;; Dired
     `(dired-directory ((,class (:foreground ,blue :weight normal))))
     `(dired-flagged ((,class (:foreground ,red1))))
@@ -410,8 +425,13 @@
     `(vc-annotate-background nil)
 
     ;; which-function
-    `(which-func ((,class (:foreground ,blue :background nil :weight bold))))
-    )))
+    `(which-func ((,class (:foreground ,blue :background nil :weight bold)))))
+
+   (custom-theme-set-variables
+    theme-name
+    `(company-quickhelp-color-background ,highlight)
+    `(company-quickhelp-color-foreground ,foreground))
+   ))
 
 ;;; Footer
 
