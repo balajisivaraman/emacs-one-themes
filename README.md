@@ -16,3 +16,16 @@ customizations and `deftheme` and does not require the
 
 This theme is licensed under the GNU Public License Version 3.0. For
 more info, please see the LICENSE file.
+
+# Credits
+
+This theme draws heavily upon the colours and naming specified in [Vim
+One](https://github.com/rakr/vim-one/) by [Ramir
+Akremi](https://github.com/rakr/).
+
+Additionally, the design of this Emacs port is inspired by [Bozhidar
+Batsov's](https://github.com/bbatsov)
+[Solarized](https://github.com/bbatsov/solarized-emacs) and [Steve
+Purcell's](https://github.com/purcell/color-theme-sanityinc-tomorrow)
+[Tomorrow](https://github.com/purcell/color-theme-sanityinc-tomorrow)
+themes.
