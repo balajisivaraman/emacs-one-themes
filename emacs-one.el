@@ -429,6 +429,20 @@
     `(rainbow-delimiters-depth-12-face ((,class (:foreground ,red1))))
     `(rainbow-delimiters-depth-unmatched-face ((,class (:foreground ,foreground :inverse-video t))))
 
+    ;; Spaceline
+    `(spaceline-evil-emacs ((,class (:background ,accent :foreground ,background))))
+    `(spaceline-evil-normal ((,class (:background ,green :foreground ,background))))
+    `(spaceline-evil-insert ((,class (:background ,blue :foreground ,background))))
+    `(spaceline-evil-visual ((,class (:background ,violet :foreground ,background))))
+    `(spaceline-evil-replace ((,class (:background ,red1 :foreground ,background))))
+    `(spaceline-highlight-face ((,class (:background ,orange1 :foreground ,background))))
+    `(spaceline-modified ((,class (:background ,blue :foreground ,background))))
+    `(spaceline-readonly ((,class (:background ,violet :foreground ,background))))
+    `(spaceline-unmodified ((,class (:background ,orange2 :foreground ,background))))
+    `(spaceline-flycheck-error ((,class (:foreground ,red1))))
+    `(spaceline-flycheck-warning ((,class (:foreground ,orange1))))
+    `(spaceline-flycheck-info ((,class (:foreground ,cyan))))
+
     ;; VC
     `(vc-annotate-background-mode nil)
     `(vc-annotate-color-map
