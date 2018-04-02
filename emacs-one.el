@@ -150,6 +150,7 @@
     `(error ((,class (:foreground ,red2))))
     `(warning ((,class (:foreground ,orange1))))
     `(tooltip ((,class (:foreground ,orange2 :background ,background :inverse-video t))))
+    `(link ((,class (:foreground nil :underline t))))
 
     ;; Company
     `(company-tooltip ((,class (:background ,contrast-bg))))
@@ -384,6 +385,26 @@
     `(magit-reflog-cherry-pick  ((t (:foreground ,green))))
     `(magit-reflog-remote       ((t (:foreground ,cyan))))
     `(magit-reflog-other ((t (:foreground ,cyan))))
+
+    ;; Markdown
+    `(markdown-blockquote-face ((,class (:inherit font-lock-doc-face))))
+    `(markdown-code-face ((,class (:inherit fixed-pitch :background ,background :foreground ,violet))))
+    `(markdown-comment-face ((,class (:foreground ,comment :strike-through t))))
+    `(markdown-footnote-face ((,class (:inherit default))))
+    `(markdown-header-delimiter-face ((,class (:foreground ,comment))))
+    `(markdown-header-face ((,class (:foreground ,blue))))
+    `(markdown-header-face-1 ((,class (:inherit markdown-header-face))))
+    `(markdown-header-face-2 ((,class (:inherit markdown-header-face))))
+    `(markdown-header-face-3 ((,class (:inherit markdown-header-face))))
+    `(markdown-header-face-4 ((,class (:inherit markdown-header-face))))
+    `(markdown-header-face-5 ((,class (:inherit markdown-header-face))))
+    `(markdown-header-face-6 ((,class (:inherit markdown-header-face))))
+    `(markdown-list-face ((,class (:inherit font-lock-builtin-face))))
+    `(markdown-math-face ((,class (:inherit font-lock-string-face))))
+    `(markdown-url-face ((,class (:inherit link))))
+    `(markdown-link-face ((,class (:foreground ,blue :underline t))))
+    `(markdown-link-title-face ((,class (:inherit font-lock-comment-face))))
+    `(markdown-inline-code-face ((,class (:inherit markdown-code-face))))
 
     ;; Org Mode
     `(org-agenda-structure ((,class (:foreground ,blue))))

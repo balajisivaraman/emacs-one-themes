@@ -23,6 +23,7 @@ this theme.
 - Org
 - Dired
 - Flycheck
+- Markdown
 - EDiff
 - Company
 - Rainbow Delimiters
