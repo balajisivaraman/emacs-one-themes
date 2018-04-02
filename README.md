@@ -34,7 +34,7 @@ And more.
 
 # Screenshots
 
-All the below screenshots use the wonderful [Pragmata Pro](www.fsd.it/shop/fonts/pragmatapro/) as the font.
+All the below screenshots use the wonderful [Pragmata Pro](https://www.fsd.it/shop/fonts/pragmatapro/) as the font.
 
 ## Dired Mode
 
