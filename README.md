@@ -32,6 +32,45 @@ this theme.
 
 And more.
 
+# Screenshots
+
+All the below screenshots use the wonderful [Pragmata Pro](www.fsd.it/shop/fonts/pragmatapro/) as the font.
+
+## Dired Mode
+
+<a href="screenshots/dired-light.png">
+<img src="screenshots/dired-light.png" title="one-light - dired" width=320 height=240/></a>
+<a href="screenshots/dired-dark.png">
+<img src="screenshots/dired-dark.png" title="one-dark - dired" width=320 height=240/></a>
+
+## Helm Find Files Mode
+
+<a href="screenshots/helm-find-files-light.png">
+<img src="screenshots/helm-find-files-light.png" title="one-light - helm-find-files" width=320 height=240/></a>
+<a href="screenshots/helm-find-files-dark.png">
+<img src="screenshots/helm-find-files-dark.png" title="one-dark - helm-find-files" width=320 height=240/></a>
+
+## Helm Find Buffer Mode
+
+<a href="screenshots/helm-find-buffers-light.png">
+<img src="screenshots/helm-find-buffers-light.png" title="one-light - helm-find-buffers" width=320 height=240/></a>
+<a href="screenshots/helm-find-buffers-dark.png">
+<img src="screenshots/helm-find-buffers-dark.png" title="one-dark - helm-find-buffers" width=320 height=240/></a>
+
+## Magit
+
+<a href="screenshots/magit-light.png">
+<img src="screenshots/magit-light.png" title="one-light - magit" width=320 height=240/></a>
+<a href="screenshots/magit-dark.png">
+<img src="screenshots/magit-dark.png" title="one-dark - magit" width=320 height=240/></a>
+
+## Rust (Sample for Font Lock Colours)
+
+<a href="screenshots/rust-light.png">
+<img src="screenshots/rust-light.png" title="one-light - rust" width=320 height=240/></a>
+<a href="screenshots/rust-dark.png">
+<img src="screenshots/rust-dark.png" title="one-dark - rust" width=320 height=240/></a>
+
 # Manual Installation
 
 Clone this repository to some location on your PC.
