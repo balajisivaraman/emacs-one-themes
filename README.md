@@ -7,10 +7,10 @@ Dark and Light variants. (Note that the Vim theme itself was a port of
 Light](https://atom.io/themes/one-light-syntax) syntax themes for the
 Atom editor.)
 
-One for Emacs is tested only under Emacs 24 or greater, but should be
-working under Emacs 23 as well. The theme is implemented in terms of
-customizations and `deftheme` and does not require the
-`color-theme-package`.
+This theme is primarly tested under Emacs 24 or greater, but it should
+ideally work Emacs 23 as well. It is also implemented in terms of the
+builtin theming support in Emacs 24 or greater and does not provide
+support for the older `color-theme-package`.
 
 Also note that I have **not tested** this theme for usage in terminals. I
 primarily use Emacs GUI, and that is the environment in which I tested
