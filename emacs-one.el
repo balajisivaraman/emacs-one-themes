@@ -303,6 +303,20 @@
     `(ledger-occur-narrowed-face ((,class (:inherit font-lock-comment-face :invisible t))))
     `(ledger-occur-xact-face ((,class (:inherit highlight))))
 
+    ;; LSP
+    `(lsp-face-highlight-read ((,class (:background ,red1 :foreground ,background))))
+    `(lsp-face-highlight-textual ((,class (:background ,orange1 :foreground ,background))))
+    `(lsp-face-highlight-write ((,class (:background ,green :foreground ,background))))
+    `(lsp-ui-doc-background ((,class (:background ,contrast-bg :foreground ,foreground))))
+    `(lsp-ui-doc-header ((,class (:background ,blue :foreground ,background))))
+    `(lsp-ui-doc-url ((,class (:inherit link :foreground ,blue))))
+    `(lsp-ui-sideline-code-action ((,class (:foreground ,orange2))))
+    `(lsp-ui-sideline-current-symbol ((,class (:foreground ,foreground :weight bold
+                                                           :height 0.99
+                                                           :box (:line-width -1 :color ,foreground)))))
+    `(lsp-ui-sideline-symbol ((,class (:foreground ,foreground :height 0.99
+                                                   :box (:line-width -1 :color ,foreground)))))
+
     ;; Magit
     ;;;; Headings
     `(magit-section-highlight ((t (:inherit contrast-bg))))
