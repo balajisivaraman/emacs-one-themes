@@ -16,6 +16,60 @@ Also note that I have **not tested** this theme for usage in terminals. I
 primarily use Emacs GUI, and that is the environment in which I tested
 this theme.
 
+# Installation
+
+## From Melpa using `package.el`
+
+One for Emacs is available via the MELPA `package.el` repository.
+Instructions for setting up Melpa can be found
+[here](https://github.com/melpa/melpa#usage).
+
+Afterwards, it's simply a matter of doing the following within your
+Emacs:
+
+```
+M-x package-install one-themes
+```
+
+Once installed, you can do:
+
+```
+(load-theme 'one-dark t)
+```
+OR
+```
+(load-theme 'one-light t)
+```
+
+## Using `use-package`
+
+If you have [use-package](https://github.com/jwiegley/use-package)
+setup, then you should be able to do the following:
+
+```
+(use-package one-themes
+  :init
+  (load-theme 'one-dark t))
+```
+OR
+```
+(use-package one-themes
+  :init
+  (load-theme 'one-light t))
+```
+
+## Manual Installation
+
+Clone this repository to some location on your PC.
+
+```
+(add-to-list 'load-path "<clone location>/emacs-one-themes")
+(add-to-list 'custom-theme-load-path "<clone location>/emacs-one-themes")
+```
+
+Afterwards, you can simply follow the `load-theme` instructions from
+above to load the variant of One you want.
+
 # Supported Modes
 
 - Helm
@@ -70,23 +124,6 @@ All the below screenshots use the wonderful [Pragmata Pro](https://www.fsd.it/sh
 <img src="screenshots/rust-light.png" title="one-light - rust" width=320 height=240/></a>
 <a href="screenshots/rust-dark.png">
 <img src="screenshots/rust-dark.png" title="one-dark - rust" width=320 height=240/></a>
-
-# Manual Installation
-
-Clone this repository to some location on your PC.
-
-```
-(add-to-list 'load-path "<clone location>/emacs-one-themes")
-(add-to-list 'custom-theme-load-path "<clone location>/emacs-one-themes")
-```
-
-```
-(load-theme 'one-dark t)
-```
-OR
-```
-(load-theme 'one-light t)
-```
 
 # Contributing
 
