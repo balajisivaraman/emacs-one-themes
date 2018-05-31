@@ -1,5 +1,8 @@
 # One for Emacs
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![MELPA](https://melpa.org/packages/one-themes-badge.svg)](https://melpa.org/#/one-themes)
+
 One for Emacs is an Emacs port of the [One theme for
 Vim/Neovim](https://github.com/rakr/vim-one/). It provides both the
 Dark and Light variants. (Note that the Vim theme itself was a port of
