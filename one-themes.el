@@ -437,7 +437,6 @@
                           :foreground ,blue :background ,background))))
      `(org-agenda-done ((,class (:foreground ,green :slant italic))))
      `(org-archived ((,class (:foreground ,comment :weight normal))))
-     `(org-block ((,class (:foreground ,comment))))
      `(org-checkbox ((,class (:background ,background :foreground ,foreground
                                           :box (:line-width 1 :style released-button)))))
      `(org-code ((,class (:foreground ,comment))))
