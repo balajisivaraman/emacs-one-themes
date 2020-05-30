@@ -289,6 +289,16 @@
      `(isearch ((,class (:foreground ,background :background ,red1 :weight normal))))
      `(isearch-fail ((,class (:foreground ,orange2 :background ,background :bold t))))
 
+     ;; Ivy
+     `(ivy-confirm-face ((,class (:foreground ,green))))
+     `(ivy-current-match ((,class (:inherit match))))
+     `(ivy-match-required-face ((,class (:foreground ,red1))))
+     `(ivy-minibuffer-match-face-1 ((,class (:foreground ,comment))))
+     `(ivy-minibuffer-match-face-2 ((,class (:foreground ,orange1))))
+     `(ivy-minibuffer-match-face-3 ((,class (:foreground ,orange1))))
+     `(ivy-minibuffer-match-face-4 ((,class (:foreground ,orange1))))
+     `(ivy-remote ((,class (:foreground ,blue))))
+
      ;; Ledger
      `(ledger-font-comment-face ((,class (:inherit font-lock-comment-face))))
      `(ledger-font-occur-narrowed-face ((,class (:inherit font-lock-comment-face :invisible t))))
