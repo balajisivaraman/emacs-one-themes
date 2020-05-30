@@ -487,6 +487,10 @@
      `(rainbow-delimiters-depth-12-face ((,class (:foreground ,red1))))
      `(rainbow-delimiters-depth-unmatched-face ((,class (:foreground ,foreground :inverse-video t))))
 
+     ;; Rust Mode
+     `(rust-builtin-formatting-macro-face ((,class (:foreground ,violet))))
+     `(rust-question-mark-face ((,class (:foreground ,blue))))
+
      ;; Spaceline
      `(spaceline-evil-emacs ((,class (:background ,accent :foreground ,background))))
      `(spaceline-evil-normal ((,class (:background ,green :foreground ,background))))
