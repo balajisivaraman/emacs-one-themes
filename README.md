@@ -76,6 +76,7 @@ above to load the variant of One you want.
 # Supported Modes
 
 - Helm
+- Ivy
 - Magit
 - Org
 - Dired
