@@ -73,6 +73,27 @@ Clone this repository to some location on your PC.
 Afterwards, you can simply follow the `load-theme` instructions from
 above to load the variant of One you want.
 
+# Configuration
+
+Emacs One Theme supports minor customization of certain faces,
+primarily inspired by Bozhidor Batsov's [Solarized
+Theme](https://github.com/bbatsov/solarized-emacs/).
+
+```el
+;; Don't change the font for some headings and titles
+(setq emacs-one-use-variable-pitch nil)
+
+;; Don't change size of org-mode headlines (but keep other size-changes)
+(setq emacs-one-scale-org-headlines nil)
+
+;; Avoid all font-size changes
+(setq emacs-one-height-minus-1 1.0)
+(setq emacs-one-height-plus-1 1.0)
+(setq emacs-one-height-plus-2 1.0)
+(setq emacs-one-height-plus-3 1.0)
+(setq emacs-one-height-plus-4 1.0)
+```
+
 # Supported Modes
 
 - Helm
@@ -153,7 +174,7 @@ Akremi](https://github.com/rakr/).
 
 Additionally, the design of this Emacs port is inspired by [Bozhidar
 Batsov's](https://github.com/bbatsov)
-[Solarized](https://github.com/bbatsov/solarized-emacs) and [Steve
+[Solarized](https://github.com/bbatsov/emacs-one-emacs) and [Steve
 Purcell's](https://github.com/purcell/color-theme-sanityinc-tomorrow)
 [Tomorrow](https://github.com/purcell/color-theme-sanityinc-tomorrow)
 themes.

@@ -71,6 +71,41 @@
               (highlight . "#D0D0D0"))))
   "Defines the colors to be used for the light and dark variants of One.")
 
+(defgroup emacs-one nil
+  "Emacs One theme options.
+The theme has to be reloaded after changing anything in this group."
+  :group 'faces)
+
+(defcustom emacs-one-use-variable-pitch t
+  "Use variable pitch face for some headings and titles."
+  :type 'boolean
+  :group 'emacs-one)
+
+(defcustom emacs-one-height-plus-1 1.1
+  "Font size +1."
+  :type 'number
+  :group 'emacs-one)
+
+(defcustom emacs-one-height-plus-2 1.15
+  "Font size +2."
+  :type 'number
+  :group 'emacs-one)
+
+(defcustom emacs-one-height-plus-3 1.2
+  "Font size +3."
+  :type 'number
+  :group 'emacs-one)
+
+(defcustom emacs-one-height-plus-4 1.3
+  "Font size +4."
+  :type 'number
+  :group 'emacs-one)
+
+(defcustom emacs-one-scale-org-headlines t
+  "Whether `org-mode' headlines should be scaled."
+  :type 'boolean
+  :group 'emacs-one)
+
 (defmacro one-themes-with-color-variables (variant &rest body)
   "Helper macro to setup colors for the provided VARIANT to be used in BODY."
   (declare (indent defun))
@@ -95,7 +130,9 @@
           (highlight (cdr (assoc 'highlight colors)))
           (foreground mono1)
           (comment mono3)
-          (class '((class color) (min-colors 89))))
+          (class '((class color) (min-colors 89)))
+          (s-variable-pitch (if emacs-one-use-variable-pitch
+                                'variable-pitch 'default)))
      ,@body))
 
 (defun one-themes-create-theme (variant theme-name)
@@ -456,15 +493,23 @@
      `(org-formula ((,class (:foreground ,orange2))))
      `(org-headline-done ((,class (:foreground ,green))))
      `(org-hide ((,class (:foreground ,background))))
-     `(org-level-1 ((,class (:foreground ,orange1))))
-     `(org-level-2 ((,class (:foreground ,green))))
-     `(org-level-3 ((,class (:foreground ,blue))))
-     `(org-level-4 ((,class (:foreground ,red1))))
-     `(org-level-5 ((,class (:foreground ,cyan))))
-     `(org-level-6 ((,class (:foreground ,orange2))))
-     `(org-level-7 ((,class (:foreground ,green))))
-     `(org-level-8 ((,class (:foreground ,red2))))
-     `(org-link ((,class (:foreground ,orange2 :underline t))))
+     `(org-level-1 ((,class (:inherit ,s-variable-pitch :foreground ,blue
+                                      ,@(when emacs-one-scale-org-headlines
+                                          (list :height emacs-one-height-plus-4))))))
+     `(org-level-2 ((,class (:inherit ,s-variable-pitch :foreground ,red1
+                                      ,@(when emacs-one-scale-org-headlines
+                                          (list :height emacs-one-height-plus-3))))))
+     `(org-level-3 ((,class (:inherit ,s-variable-pitch :foreground ,cyan
+                                      ,@(when emacs-one-scale-org-headlines
+                                          (list :height emacs-one-height-plus-2))))))
+     `(org-level-4 ((,class (:inherit ,s-variable-pitch :foreground ,violet
+                                      ,@(when emacs-one-scale-org-headlines
+                                          (list :height emacs-one-height-plus-1))))))
+     `(org-level-5 ((,class (:inherit ,s-variable-pitch :foreground ,green))))
+     `(org-level-6 ((,class (:inherit ,s-variable-pitch :foreground ,orange2))))
+     `(org-level-7 ((,class (:inherit ,s-variable-pitch :foreground ,blue))))
+     `(org-level-8 ((,class (:inherit ,s-variable-pitch :foreground ,red1))))
+     `(org-link ((,class (:foreground ,red1 :underline t))))
      `(org-meta-line ((,class (:foreground ,comment :slant italic))))
      `(org-sexp-date ((,class (:foreground ,violet))))
      `(org-scheduled ((,class (:foreground ,green))))
