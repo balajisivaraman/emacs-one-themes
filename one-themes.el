@@ -328,7 +328,7 @@ The theme has to be reloaded after changing anything in this group."
 
      ;; Ivy
      `(ivy-confirm-face ((,class (:foreground ,green))))
-     `(ivy-current-match ((,class (:inherit match))))
+     `(ivy-current-match ((,class (:inherit match :weight bold :underline t))))
      `(ivy-match-required-face ((,class (:foreground ,red1))))
      `(ivy-minibuffer-match-face-1 ((,class (:foreground ,comment))))
      `(ivy-minibuffer-match-face-2 ((,class (:foreground ,orange1))))
