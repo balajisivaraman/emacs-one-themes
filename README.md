@@ -174,7 +174,7 @@ Akremi](https://github.com/rakr/).
 
 Additionally, the design of this Emacs port is inspired by [Bozhidar
 Batsov's](https://github.com/bbatsov)
-[Solarized](https://github.com/bbatsov/emacs-one-emacs) and [Steve
+[Solarized](https://github.com/bbatsov/solarized-emacs) and [Steve
 Purcell's](https://github.com/purcell/color-theme-sanityinc-tomorrow)
 [Tomorrow](https://github.com/purcell/color-theme-sanityinc-tomorrow)
 themes.
